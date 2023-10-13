@@ -1,0 +1,60 @@
+@chatset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('7359962-galaxy-stars-in-the-universe-outside-earth-abstract-graphic-design-wallpaper-card-3d-gratis-foto.jpg');
+}
+
+#div-formulario {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(199, 137, 147);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+input {
+    margin-top: 20px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+input[type=number] {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input[type=button] {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(199, 137, 147);
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid rgb(199, 137, 147);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    
+}
+
+input[type=button]:hover {
+    color: white;
+    background-color: rgb(199, 137, 147);
+}
+
+#res {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
